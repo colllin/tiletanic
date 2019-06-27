@@ -47,7 +47,7 @@ Tiling Schemes
 
 Tile schemes are how you convert back and forth from tile coordinates to geospatial coordinates or quadkeys and the like.  They also let you easily traverse the tile structure.  You can use one of the schemes that comes with Tiletanic (see :py:class:`here <tiletanic.tileschemes>`) or build your own.  
 
-If you build your own, you'll want to implement the public API of a tilescheme (see :py:mod:`here <tiletanic.tileschemes.BasicTilingBottomLeft>`) so that you can use the tile algorithms defined around this API.
+If you build your own, you'll want to implement the public API of a tilescheme (see :py:mod:`tiletanic.tileschemes <tiletanic.tileschemes.BasicTilingBottomLeft>`) so that you can use the tile algorithms defined around this API.
 
 Here's a Web Mercator tile scheme:
 
